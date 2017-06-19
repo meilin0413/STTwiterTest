@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4EB190855EBB818DE0CD362066790A8F5D833881" : 9223372036854775807,
+    "07531F43B803A88B4F9513C5092F531B5C6EB4F5" : 9223372036854775807,
+    "18587E881E3ABFA494C4A3627AA8693F7A3692F3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "67B6E1E5-E440-480B-908A-89ABA3BAF75D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4EB190855EBB818DE0CD362066790A8F5D833881" : "",
+    "07531F43B803A88B4F9513C5092F531B5C6EB4F5" : "..",
+    "18587E881E3ABFA494C4A3627AA8693F7A3692F3" : "STTwitter\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "STTwitterDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "STTwitterDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/meilin0413\/intern.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07531F43B803A88B4F9513C5092F531B5C6EB4F5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nst\/STTwitter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18587E881E3ABFA494C4A3627AA8693F7A3692F3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/meilin0413\/STTwitterTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4EB190855EBB818DE0CD362066790A8F5D833881"
+    }
+  ]
+}

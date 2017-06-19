@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E725607C1552D21C009B2E8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E725607B1552D21C009B2E8E /* Cocoa.framework */; };
+		E72560861552D21C009B2E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E72560841552D21C009B2E8E /* InfoPlist.strings */; };
+		E72560881552D21C009B2E8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E72560871552D21C009B2E8E /* main.m */; };
+		E725608C1552D21C009B2E8E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E725608A1552D21C009B2E8E /* Credits.rtf */; };
+		E725608F1552D21C009B2E8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E725608E1552D21C009B2E8E /* AppDelegate.m */; };
+		E72560921552D21C009B2E8E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E72560901552D21C009B2E8E /* MainMenu.xib */; };
+		E725609B1552D22E009B2E8E /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = E72560981552D22E009B2E8E /* close.png */; };
+		E725609C1552D22E009B2E8E /* closeDown.png in Resources */ = {isa = PBXBuildFile; fileRef = E72560991552D22E009B2E8E /* closeDown.png */; };
+		E725609D1552D22E009B2E8E /* closeHover.png in Resources */ = {isa = PBXBuildFile; fileRef = E725609A1552D22E009B2E8E /* closeHover.png */; };
+		E72560A31552D2AF009B2E8E /* ButtonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E72560A21552D2AF009B2E8E /* ButtonStyle.m */; };
+		E7CBDD2C1555154E002EE1CE /* AppWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CBDD2B1555154E002EE1CE /* AppWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E72560771552D21C009B2E8E /* ButtonHover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonHover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E725607B1552D21C009B2E8E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E725607E1552D21C009B2E8E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E725607F1552D21C009B2E8E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E72560801552D21C009B2E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E72560831552D21C009B2E8E /* ButtonHover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonHover-Info.plist"; sourceTree = "<group>"; };
+		E72560851552D21C009B2E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E72560871552D21C009B2E8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E72560891552D21C009B2E8E /* ButtonHover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonHover-Prefix.pch"; sourceTree = "<group>"; };
+		E725608B1552D21C009B2E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E725608D1552D21C009B2E8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E725608E1552D21C009B2E8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E72560911552D21C009B2E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E72560981552D22E009B2E8E /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		E72560991552D22E009B2E8E /* closeDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeDown.png; sourceTree = "<group>"; };
+		E725609A1552D22E009B2E8E /* closeHover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeHover.png; sourceTree = "<group>"; };
+		E72560A11552D2AF009B2E8E /* ButtonStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonStyle.h; sourceTree = "<group>"; };
+		E72560A21552D2AF009B2E8E /* ButtonStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonStyle.m; sourceTree = "<group>"; };
+		E7CBDD2A1555154E002EE1CE /* AppWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppWindow.h; sourceTree = "<group>"; };
+		E7CBDD2B1555154E002EE1CE /* AppWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E72560741552D21C009B2E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E725607C1552D21C009B2E8E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E725606C1552D21C009B2E8E = {
+			isa = PBXGroup;
+			children = (
+				E72560811552D21C009B2E8E /* ButtonHover */,
+				E725607A1552D21C009B2E8E /* Frameworks */,
+				E72560781552D21C009B2E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E72560781552D21C009B2E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E72560771552D21C009B2E8E /* ButtonHover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E725607A1552D21C009B2E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E725607B1552D21C009B2E8E /* Cocoa.framework */,
+				E725607D1552D21C009B2E8E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E725607D1552D21C009B2E8E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E725607E1552D21C009B2E8E /* AppKit.framework */,
+				E725607F1552D21C009B2E8E /* CoreData.framework */,
+				E72560801552D21C009B2E8E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E72560811552D21C009B2E8E /* ButtonHover */ = {
+			isa = PBXGroup;
+			children = (
+				E725608D1552D21C009B2E8E /* AppDelegate.h */,
+				E725608E1552D21C009B2E8E /* AppDelegate.m */,
+				E7CBDD2A1555154E002EE1CE /* AppWindow.h */,
+				E7CBDD2B1555154E002EE1CE /* AppWindow.m */,
+				E72560901552D21C009B2E8E /* MainMenu.xib */,
+				E72560A11552D2AF009B2E8E /* ButtonStyle.h */,
+				E72560A21552D2AF009B2E8E /* ButtonStyle.m */,
+				E72560821552D21C009B2E8E /* Supporting Files */,
+			);
+			path = ButtonHover;
+			sourceTree = "<group>";
+		};
+		E72560821552D21C009B2E8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E72560981552D22E009B2E8E /* close.png */,
+				E72560991552D22E009B2E8E /* closeDown.png */,
+				E725609A1552D22E009B2E8E /* closeHover.png */,
+				E72560831552D21C009B2E8E /* ButtonHover-Info.plist */,
+				E72560841552D21C009B2E8E /* InfoPlist.strings */,
+				E72560871552D21C009B2E8E /* main.m */,
+				E72560891552D21C009B2E8E /* ButtonHover-Prefix.pch */,
+				E725608A1552D21C009B2E8E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E72560761552D21C009B2E8E /* ButtonHover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E72560951552D21C009B2E8E /* Build configuration list for PBXNativeTarget "ButtonHover" */;
+			buildPhases = (
+				E72560731552D21C009B2E8E /* Sources */,
+				E72560741552D21C009B2E8E /* Frameworks */,
+				E72560751552D21C009B2E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonHover;
+			productName = ButtonHover;
+			productReference = E72560771552D21C009B2E8E /* ButtonHover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E725606E1552D21C009B2E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E72560711552D21C009B2E8E /* Build configuration list for PBXProject "ButtonHover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E725606C1552D21C009B2E8E;
+			productRefGroup = E72560781552D21C009B2E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E72560761552D21C009B2E8E /* ButtonHover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E72560751552D21C009B2E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72560861552D21C009B2E8E /* InfoPlist.strings in Resources */,
+				E725608C1552D21C009B2E8E /* Credits.rtf in Resources */,
+				E72560921552D21C009B2E8E /* MainMenu.xib in Resources */,
+				E725609B1552D22E009B2E8E /* close.png in Resources */,
+				E725609C1552D22E009B2E8E /* closeDown.png in Resources */,
+				E725609D1552D22E009B2E8E /* closeHover.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E72560731552D21C009B2E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72560881552D21C009B2E8E /* main.m in Sources */,
+				E725608F1552D21C009B2E8E /* AppDelegate.m in Sources */,
+				E72560A31552D2AF009B2E8E /* ButtonStyle.m in Sources */,
+				E7CBDD2C1555154E002EE1CE /* AppWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E72560841552D21C009B2E8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E72560851552D21C009B2E8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E725608A1552D21C009B2E8E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E725608B1552D21C009B2E8E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E72560901552D21C009B2E8E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E72560911552D21C009B2E8E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E72560931552D21C009B2E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E72560941552D21C009B2E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E72560961552D21C009B2E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonHover/ButtonHover-Prefix.pch";
+				INFOPLIST_FILE = "ButtonHover/ButtonHover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E72560971552D21C009B2E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonHover/ButtonHover-Prefix.pch";
+				INFOPLIST_FILE = "ButtonHover/ButtonHover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E72560711552D21C009B2E8E /* Build configuration list for PBXProject "ButtonHover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72560931552D21C009B2E8E /* Debug */,
+				E72560941552D21C009B2E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E72560951552D21C009B2E8E /* Build configuration list for PBXNativeTarget "ButtonHover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72560961552D21C009B2E8E /* Debug */,
+				E72560971552D21C009B2E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E725606E1552D21C009B2E8E /* Project object */;
+}
